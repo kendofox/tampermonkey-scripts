@@ -1,12 +1,14 @@
 // ==UserScript==
-// @name         GPT 快捷功能 v3.2
+// @name         GPT 快捷功能 v3.3
 // @namespace    http://tampermonkey.net/
-// @version      3.2
+// @version      3.3
 // @description  在 ChatGPT 輸入欄上方加入翻譯、完整代碼、白話文整理等快捷按鈕，並能正確輸入內容。
 // @author       kendofox
 // @match        https://chatgpt.com/*
 // @grant        none
 // @run-at       document-idle
+// @updateURL    https://raw.githubusercontent.com/kendofox/tampermonkey-scripts/main/gpt-shortcuts.user.js
+// @downloadURL  https://raw.githubusercontent.com/kendofox/tampermonkey-scripts/main/gpt-shortcuts.user.js
 // ==/UserScript==
 
 (function () {
